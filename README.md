@@ -1,3 +1,3 @@
 # Cronometro (HTML + CSS + JavaScript)
 
-![Alt text](cronometro.jpg?raw=true "Sample")
+![Alt text](cronometro.png?raw=true "Sample")
