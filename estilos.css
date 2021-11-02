@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cronometro {
+  margin-top: -25vh;
+  width: 425px;
+}
+
+.cronometro .logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.cronometro .logo img {
+  height: 125px;
+  width: 110px;
+}
+
+.cronometro .tempo {
+  font-size: 6em;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#milissegundo {
+  font-size: 3rem;
+  padding-left: 10px;
+}
+
+.cronometro .tempo .milissegundo {
+  font-size: 3rem;
+  padding-left: 10px;
+}
+
+.cronometro .tempo span {
+  align-self: baseline;
+}
+
+.cronometro .controles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cronometro .controles button {
+  display: inline;
+  font-size: 0.75rem;
+  font-weight: bold;
+  min-width: 100px;
+  padding: 10px 0;
+}

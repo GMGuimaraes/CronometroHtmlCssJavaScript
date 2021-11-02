@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronômetro Online</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="cronometro">
+    <div class="logo">
+      <img src="cronometro.png" alt="" />
+    </div>
+    <div class="tempo">
+      <span id="hora">00</span>
+      <span id="separador">:</span>
+      <span id="minuto">00</span>
+      <span id="separador">:</span>
+      <span id="segundo">00</span>
+      <span id="milissegundo">000</span>
+    </div>
+    <div class="controles">
+      <button id="start" onclick="start()">Iniciar</button>
+      <button id="pause" onclick="stop()">Pausar</button>
+      <button id="restart" onclick="reiniciar()">Reiniciar</button>
+    </div>
+  </div>
+</body>
+
+</html>
